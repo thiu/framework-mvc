@@ -1,0 +1,15 @@
+{
+	"require": {
+         "altorouter/altorouter": "1.1.0"
+    },
+    "autoload": {
+    	"classmap": [
+    		"app/http/controllers",
+    		"app/model"
+    	],
+    	"psr-4": {
+	      "Src\\":"src/",
+          "Routes\\":"routes/"
+	    }
+    }
+}
